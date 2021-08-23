@@ -1,0 +1,38 @@
+.container{
+    width:80%;
+    padding:1rem;
+}
+
+.main-heading{
+    text-align:center;
+    text-decoration: underline;
+    text-decoration-color:#17B978;
+    color:#071A52;
+    font-size:3rem;
+}
+
+.flex-grid-container{
+    display:flex;
+}
+.flex-grid{
+    flex:3;
+    flex-wrap:wrap;
+}
+
+.flex-grid .col{
+    width:32%;
+}
+
+@media (max-width: 400px) {
+    .flex-grid-container
+     {
+      display: block;
+    }
+    .flex-grid-container .col{
+    width: 100%;
+    margin: 0 0 10px 0;
+
+    }
+    
+  }
+

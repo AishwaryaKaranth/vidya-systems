@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import style from "../styles/Faq.module.css";
 
 const Faq=()=> {
   const [visible, setVisibility] = useState(true);
@@ -20,18 +21,20 @@ const Faq=()=> {
 
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
+      <h1>Frequently Asked Questions</h1>
       {faq.map((f) => (
-        <>
-          <li>{f.question}</li>
-
-          <button onClick={() => setVisibility(visible ? false : true)}>
-            Click
-          </button>
+        <section className={style["faq-container"]}>
+          <li className={style["faq-question-container"]}>{f.question}</li>
+            <div className={style["faq-button-container"]}>
+                <button className={style["faq-button"]} onClick={() => setVisibility(visible ? false : true)}>
+                +
+                </button>
+            </div>
+          
           {visible && (
-            <li style={{ color: visible ? "red" : "blue" }}>{f.answer}</li>
+            <li className={style["faq-answer-container"]} style={{ color: visible ? "red" : "blue" }}>{f.answer}</li>
           )}
-        </>
+        </section>
       ))}
     </div>
   );

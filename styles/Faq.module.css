@@ -1,0 +1,32 @@
+.faq-container {
+    margin: 1rem 0;
+    border-radius: .15rem .3rem .3rem .15rem;
+    border: 1px solid rgba(0,0,0,.1);
+    border-left: 5px solid #17B978;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.faq-button {
+    content: "+";
+    transform: translateY(-50%);
+    background-color: #17B978;
+    min-height: 2.5rem;
+    min-width: 2.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    flex: 0;
+    border-radius: 3rem;
+    border: 1px solid #17B978;
+    line-height: 2.4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    transition: background-color 225ms cubic-bezier(.4,0,.2,1);
+}
+
+.faq-button-container{
+    float:right;
+    padding:10px;
+}
+
