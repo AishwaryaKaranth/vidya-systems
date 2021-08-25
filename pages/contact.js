@@ -1,8 +1,10 @@
+import styles from "../styles/Contact.module.css";
+
 const Contact=()=>{
     return(
-        <>
-        <h1>Contact</h1>
-        </>
+        <div className="App">
+        <h1 className={styles['contact-heading']}>Contact</h1>
+        </div>
     )
 }
 

@@ -1,16 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.faq-heading{
+    font-family:'Montserrat',sans-serif;
+    text-align:center;
+    color:#071A52;
+    font-size:3.5rem;
+    text-decoration: underline;
+    text-decoration-color: #17B978;
+    font-weight:900;
+}
+
 .faq-container {
     margin: 1rem 0;
     border-radius: .15rem .3rem .3rem .15rem;
     border: 1px solid rgba(0,0,0,.1);
-    border-left: 5px solid #17B978;
+    border-left: 15px solid #17B978;
     background-color: #fff;
     overflow: hidden;
+    width:80vw;
 }
 
 .faq-button {
     content: "+";
     transform: translateY(-50%);
-    background-color: #17B978;
+    background-color: #071A52;
     min-height: 2.5rem;
     min-width: 2.5rem;
     height: 2.5rem;

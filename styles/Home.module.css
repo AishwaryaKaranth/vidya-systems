@@ -1,6 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.hero-heading{
+  font-family:'Montserrat', sans-serif;
+  position:absolute;
+  font-size:5rem;
+  top:50%;
+  left:25%;
+}
+
+.image-container{
+  width:100vw;
+  height:80vh;
+}
+
 .hero-image{
-  position:relative;
-  display:inline-block;
+  vertical-align: middle;
+    border-style: none;
+    /* height: 50%; */
+    height: inherit;
+    width: 100vw;
+    margin-top: -5rem;
+    opacity: 0.4;
 }
 
 .hero-image:after{
