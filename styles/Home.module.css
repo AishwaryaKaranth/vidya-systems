@@ -42,3 +42,25 @@
 .hero-image img{
   display:block;
 }
+
+.about-desc-container{
+  width: 80vw;
+    height: 40vh;
+    position: relative;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: -4rem;
+    background-color: white;
+    box-shadow: azure;
+    box-shadow: 5px 10px 16px 3px green;
+}
+
+.about-desc ul{
+  display:inline-flex;
+  width:32%;
+}
+
+.about-desc li{
+  display:inline-flex;
+  width:32%;
+}

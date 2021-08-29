@@ -14,6 +14,7 @@
     "@zeit/next-css": "^1.0.1",
     "bootstrap": "^5.1.0",
     "dotenv": "^10.0.0",
+    "keen-slider": "^5.5.1",
     "mdbreact": "^5.1.0",
     "next": "11.0.1",
     "next-compose-plugins": "^2.2.1",
