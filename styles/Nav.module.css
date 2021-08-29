@@ -1,3 +1,7 @@
+.logo{
+  width:20vw;
+  padding:1px;
+}
 .nav {
     height: 50px;
     padding: 10px;
@@ -6,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-top:4rem;
+    
   }
   
   .nav ul {
@@ -19,7 +23,19 @@
   
   .nav li {
     padding-left:1rem;
+    padding-top:1rem;
   }
   .nav ul li a {
     margin: 5px 15px;
+    color:white;
+  }
+
+  .nav a:hover{
+    color:#A7FF83;
+  }
+
+  .sub-dropdown{
+    margin-top: 5rem;
+    color: black;
+    margin-left: -1rem;
   }
